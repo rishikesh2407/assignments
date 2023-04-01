@@ -1,10 +1,11 @@
-def addNumber(a, b):
-    sum = a + b
+def addNumber(a, b, c):
+    sum = a + b + c
     return sum
 # Taking input
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
 # Calling out user-defined function 
-sum = addNumber(num1, num2)
+sum = addNumber(num1, num2, num3)
 # Display result
-print("Sum of two numbers is: ", sum)
+print("Sum of three numbers is: ", sum)
